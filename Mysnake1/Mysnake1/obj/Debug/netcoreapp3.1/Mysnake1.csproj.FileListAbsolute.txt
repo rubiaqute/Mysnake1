@@ -1,0 +1,13 @@
+C:\Users\user\Desktop\Программирование\Mysnake\Mysnake1\Mysnake1\Mysnake1\obj\Debug\netcoreapp3.1\Mysnake1.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Программирование\Mysnake\Mysnake1\Mysnake1\Mysnake1\obj\Debug\netcoreapp3.1\Mysnake1.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Программирование\Mysnake\Mysnake1\Mysnake1\Mysnake1\obj\Debug\netcoreapp3.1\Mysnake1.AssemblyInfo.cs
+C:\Users\user\Desktop\Программирование\Mysnake\Mysnake1\Mysnake1\Mysnake1\obj\Debug\netcoreapp3.1\Mysnake1.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Программирование\Mysnake\Mysnake1\Mysnake1\Mysnake1\bin\Debug\netcoreapp3.1\Mysnake1.exe
+C:\Users\user\Desktop\Программирование\Mysnake\Mysnake1\Mysnake1\Mysnake1\bin\Debug\netcoreapp3.1\Mysnake1.deps.json
+C:\Users\user\Desktop\Программирование\Mysnake\Mysnake1\Mysnake1\Mysnake1\bin\Debug\netcoreapp3.1\Mysnake1.runtimeconfig.json
+C:\Users\user\Desktop\Программирование\Mysnake\Mysnake1\Mysnake1\Mysnake1\bin\Debug\netcoreapp3.1\Mysnake1.runtimeconfig.dev.json
+C:\Users\user\Desktop\Программирование\Mysnake\Mysnake1\Mysnake1\Mysnake1\bin\Debug\netcoreapp3.1\Mysnake1.dll
+C:\Users\user\Desktop\Программирование\Mysnake\Mysnake1\Mysnake1\Mysnake1\bin\Debug\netcoreapp3.1\Mysnake1.pdb
+C:\Users\user\Desktop\Программирование\Mysnake\Mysnake1\Mysnake1\Mysnake1\obj\Debug\netcoreapp3.1\Mysnake1.dll
+C:\Users\user\Desktop\Программирование\Mysnake\Mysnake1\Mysnake1\Mysnake1\obj\Debug\netcoreapp3.1\Mysnake1.pdb
+C:\Users\user\Desktop\Программирование\Mysnake\Mysnake1\Mysnake1\Mysnake1\obj\Debug\netcoreapp3.1\Mysnake1.genruntimeconfig.cache
