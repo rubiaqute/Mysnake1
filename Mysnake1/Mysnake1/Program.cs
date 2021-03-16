@@ -8,12 +8,16 @@ namespace Mysnake1
         {
 			
 			int x = 1;
-			IncFailed(x);
-			Console.WriteLine("Call IncFailed. x = " + x);
+			Func1(x);
+			Console.WriteLine("Call Func1. x = " + x);
 
 			x = 1;
-			x = Inc(x);
-			Console.WriteLine("Call Inc. x = " + x);
+			Func2(x);
+			Console.WriteLine("Call Func2. x = " + x);
+
+			x = 1;
+			Func3(x);
+			Console.WriteLine("Call Func3. x = " + x);
 
 			Point p1 = new Point(1, 3, '*');
 			Move(p1, 10, 10);
@@ -33,14 +37,19 @@ namespace Mysnake1
 
 		}
 
-		public static void IncFailed(int value)
+		public static void Func1(int value)
+		{
+
+		}
+
+		public static void Func2(int value)
 		{
 			value = value + 1;
 		}
 
-		public static int Inc(int value)
+		public static void Func3(int x)
 		{
-			return value + 1;
+			x = x + 1;
 		}
 		public static void Move(Point p, int dx, int dy)
 		{
