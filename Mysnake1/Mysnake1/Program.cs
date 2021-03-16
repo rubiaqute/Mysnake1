@@ -19,8 +19,11 @@ namespace Mysnake1
 			Move(p1, 10, 10);
 			Console.WriteLine("Call Move. p1.x = " + p1.x + ", p1.y = " + p1.y);
 
-			Update(p1);
-			Console.WriteLine("Call Move. p1.x = " + p1.x + ", p1.y = " + p1.y);
+			Point p2 = new Point(4, 5, '#');
+			Reset(p2);
+			Console.WriteLine("Call Reset. p2.x = " + p2.x + ", p2.y = " + p2.y);
+
+			Console.ReadLine();
 
 		}
 
@@ -39,7 +42,7 @@ namespace Mysnake1
 			p.y = p.y + dy;
 		}
 
-		public static void Update(Point p)
+		public static void Reset(Point p)
 		{
 			p = new Point();
 		}
