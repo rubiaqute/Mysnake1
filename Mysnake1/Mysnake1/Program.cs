@@ -32,8 +32,8 @@ namespace Mysnake1
 			p1 = new Point(1, 3, '*');
 			Update(p1);
 			Console.WriteLine("Call Move. p1.x = " + p1.x + ", p1.y = " + p1.y);
+			Console.ReadLine();
 
-			
 
 		}
 
