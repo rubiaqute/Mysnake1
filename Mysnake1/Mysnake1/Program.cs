@@ -15,7 +15,8 @@ namespace Mysnake1
 			p2.Draw();
 			HorizontalLine line = new HorizontalLine(5, 10, 8, '+');
 			line.Drow();
-
+			VerticalLine line1 = new VerticalLine(10, 5, 10, '+');
+			line1.Drow();
 			Console.ReadLine();
 
 		}
