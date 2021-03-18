@@ -9,15 +9,15 @@ using System.Linq;
 namespace Mysnake1
 {
     class Snake : Figure
-   
+
     {
         Direction direction;
-        public Snake (Point tail, int length, Direction _direction)
+        public Snake(Point tail, int length, Direction _direction)
         {
             direction = _direction;
             pList = new List<Point>();
             for (int i = 0; i < length; i++)
-                {
+            {
                 Point p = new Point(tail);
                 p.Move(i, direction);
                 pList.Add(p);
@@ -42,7 +42,7 @@ namespace Mysnake1
             return nextPoint;
 
         }
-        public  void HandleKey (ConsoleKey key)
+        public void HandleKey(ConsoleKey key)
         {
             if (key == ConsoleKey.LeftArrow)
                 direction = Direction.LEFT;
@@ -53,5 +53,18 @@ namespace Mysnake1
             else if (key == ConsoleKey.UpArrow)
                 direction = Direction.UP;
         }
+        internal bool Eat(Point food)
+        {
+            Point head = GetNextPoint();
+            if (head.IsHit(food))
+            {
+                food.sym = head.sym;
+                pList.Add(food);
+                return true;
+            }
+            else
+                return false;
+        }
+
     }
 }
