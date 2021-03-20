@@ -34,6 +34,9 @@ namespace Mysnake1
             tail.Clear();
             head.Draw();
         }
+
+        
+
         public Point GetNextPoint()
         {
             Point head = pList.Last();
@@ -53,17 +56,29 @@ namespace Mysnake1
             }
             return false;
         }
-
+        
         public void HandleKey(ConsoleKey key)
         {
             if (key == ConsoleKey.LeftArrow)
-                direction = Direction.LEFT;
+            {
+                if (direction != Direction.RIGHT)
+                    direction = Direction.LEFT;
+            }
             else if (key == ConsoleKey.RightArrow)
-                direction = Direction.RIGHT;
+            {
+                if (direction != Direction.LEFT)
+                    direction = Direction.RIGHT;
+            }
             else if (key == ConsoleKey.DownArrow)
-                direction = Direction.DOWN;
+            {
+                if (direction != Direction.UP)
+                    direction = Direction.DOWN;
+            }
             else if (key == ConsoleKey.UpArrow)
-                direction = Direction.UP;
+            {
+                if (direction != Direction.DOWN)
+                    direction = Direction.UP;
+            }
         }
         internal bool Eat(Point food)
         {
